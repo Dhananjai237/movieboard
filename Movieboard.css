@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #14181c;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    border: 0.1rem solid #1a1a1a;
+    background-color: #0d0d0d;
+}
+
+header div {
+    margin: 1rem 20rem 1rem 10rem;
+    display: flex;
+}
+
+.logo {
+    height: 2rem;
+    width: 2rem;
+    border: 0.1rem solid #9ab;
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+
+.title {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav{
+    margin: 1.5rem;
+}
+
+header nav a {
+    color: #9ab;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+}
+
+header nav a:hover {
+    color: #FFFFFF;
+}
+
+.welcome {
+    background: linear-gradient(#222b3399, #14181c);
+    height: 15rem;
+}
+
+.welcome h1 {
+    color: #9ab;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.welcome p {
+    color: #9ab;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.block {
+    margin: 1rem 10rem 4rem 10rem;
+}
+
+.block h2 {
+    color: #9ab;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem 1rem 0.4rem 0rem;
+}
+
+.block hr {
+    border: 0.001rem solid #9ab;
+}
+
+.block div {
+    display: flex;
+}
+
+.block img {
+    height: 16rem;
+    width: 11rem;
+    border: 0.001rem solid #9ab;
+    margin: 1rem 1.15rem 0rem 0rem;
+}
+
+footer {
+    display: flex;
+    border: 0.1rem solid #1a1a1a;
+    background-color: #0d0d0d;
+}
+
+footer h3 {
+    color: #9ab;
+    padding: 2rem 25rem 2rem 10rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer a {
+    color: #9ab;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a i {
+    padding-left: 0.5rem;
+}
